@@ -1,0 +1,8 @@
+title: My Portfolio
+name: Lauren Papineau
+email: laurenpapineau04@gmail.com
+
+collections: 
+  design:
+    output: true
+    permalink: /:collections/:path/
