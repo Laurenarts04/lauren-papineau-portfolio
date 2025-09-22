@@ -1,2 +1,117 @@
-/* CSS Document */
 
+:root {
+  primary: #E9B9C5;   /* pink */
+  secondary: #F5E0DF; /* pale pink */
+  tertiary: #4C5B39;  /* deep green */
+  accent: #CCC9A4;    /* sage */
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #F5E0DF;
+  color: #4C5B39;
+  line-height: 1.5;
+}
+
+
+header {
+  background-image: url("../img/White_Pattern1.png");
+  background-color: #E9B9C5;
+  text-align: center;
+  padding: 2rem;
+}
+
+header img {
+  max-width: 180px;
+  height: auto;
+}
+
+
+footer {
+  background-image: url("../img/White_Pattern2.png");
+  background-color:#4C5B39;
+  text-align: center;
+  height: 250px;
+  padding: 2rem;
+}
+
+
+
+
+
+.div1, .div2, .div3, .div4 {
+  padding: 2rem;
+  text-align: center;
+}
+
+.div1 {
+  background-color: #F5E0DF;
+}
+
+.div2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.div3 {
+  background-color: #E9B9C5;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: flex-start;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.img-block {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 250px;
+}
+
+.img-block h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  font-family: var(--font-bold);
+  color: var(--tertiary);
+  text-align: center;
+}
+
+.img-block img {
+  width: 100%;
+  height: auto;
+  border-radius: 50px;
+}
+
+.div4 {
+  background-color: #F5E0DF;
+  display: grid;
+  gap: 2rem;
+  text-align: left;
+}
+
+/* --------- Images --------- */
+.div1 img,
+.div2 img,
+.div3 img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50px;
+}
+
+/* --------- Paragraphs --------- */
+.div4 p {
+  background-color: white;
+  padding: 1.5rem;
+  border: 1px solid #CCC9A4;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
